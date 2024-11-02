@@ -12,7 +12,6 @@
     align-items: center;
     justify-content: space-evenly;
     border : none;
-
 }
 
 .border {
@@ -245,4 +244,94 @@ span {
     justify-content: center;
     border: 1px solid transparent;
     padding: 2px;
+}
+
+/* herosection */
+
+.herosection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.herosection-img {
+    height: 700px;
+    width: 80%;
+    background-image: url(../assets/Banner.png);
+    background-size: cover;
+    border-bottom: 1px solid #0f1111;
+}
+
+.herosection-shop {
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    top: 50%;
+    z-index: 0;
+}
+
+.shop-box {
+    position: relative;
+    height: 420px;
+    width: 350px;
+    background-color: rgb(240, 240, 240);
+}
+
+.shop-box:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.shop-box-grid {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 160px 160px;
+    gap: 10px;
+    row-gap: 30px;
+    top: 22%;
+    left: 10px;
+
+}
+
+.shop-box-grid-text {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 170px 170px;
+    row-gap: 115px; 
+    top: 46%;
+    left: 15px;
+    font-size: 0.8rem;
+    font-weight: none;
+}
+
+.shop-box-grid img {
+    height: 100px;
+    width: 160px;
+}
+
+.shop-box h1 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.shop-box p {
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #007185;
+}
+
+.shop-box p:hover {
+    cursor: pointer;
+    color: rgb(253, 115, 35);
+}
+
+.Grid:hover {
+    cursor: pointer;
 }
