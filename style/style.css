@@ -20,6 +20,7 @@
 }
 
 .border:hover {
+    cursor: pointer;
     border: 1px solid white;
 }
 
@@ -117,6 +118,7 @@
 }
 
 .search-icon:hover {
+    cursor: pointer;
     background-color: rgba(253, 177, 35, 0.945);
     color: #0f1111;
 }
@@ -201,4 +203,46 @@ span {
     width: 38px;
     text-align: center;
     font-size: 2rem;
+}
+
+/* Panel */
+
+.panel {
+    height: 43px;
+    background-color: #06684f;
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+}
+
+.panel-op {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-left: 10px;
+
+}
+
+.panel-all {
+    height: 36px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    gap: 5px;
+
+}
+
+.panel-op p {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    padding: 2px;
 }
