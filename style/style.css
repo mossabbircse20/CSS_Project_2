@@ -74,10 +74,11 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(245, 193, 97);
+    background-color: #a30564;
     width: 650px;
     height: 40px;
     border-radius: 5px;
+    border: none;
 }
 
 .search-select {
@@ -85,9 +86,9 @@
     background-color: #f3f3f3;
     color: rgba(15, 17, 17, 0.425);
     width: 45px;
-    height: 40px;
+    height: 39px;
     text-align: center;
-    border: none;
+    border: 1px solid transparent;
     padding-left: 5px;
     border-radius: 5px 0px 0px 5px;
 }
@@ -99,8 +100,8 @@
 
 .search-input {
     width: 100%;
-    height: 38px;
-    border: none;
+    height: 35px;
+    border: 1px solid transparent;
     font-size: 1rem;
 }
 
@@ -111,15 +112,15 @@
     align-items: center;
     justify-content: center;
     font-size: 1.3rem;
-    color: #0f1111b7;
+    color: white;
     border-radius: 0px 5px 5px 0px;
     border: none;
 }
 
 .search-icon:hover {
     cursor: pointer;
-    background-color: rgba(253, 177, 35, 0.945);
-    color: #0f1111;
+    background-color: #7F1153;
+    color: white;
 }
 
 /* Language Box */
@@ -140,7 +141,7 @@
     height: 25px;
     width: 25px;
     margin: 0px 2px 1px 0px;
-    background-image: url(/assets/usa_flag.png);
+    background-image: url(../assets/usa_flag.png);
     background-size: cover;
     border-radius: 50%;
 }
@@ -150,7 +151,6 @@
     font-weight: bolder;
     text-align: center;
     height: 15px;
-
 }
 
 .nav-lang-select {
@@ -335,3 +335,4 @@ span {
 .Grid:hover {
     cursor: pointer;
 }
+
