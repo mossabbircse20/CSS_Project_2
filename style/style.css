@@ -380,10 +380,15 @@ span {
     width: 250px;
     background: linear-gradient(-180deg, rgb(253, 215, 2) , rgb(243, 219, 2), orange);
     border-radius: 5px;
-    border: 1px solid orange;
+    border: 1px solid transparent;
     text-align: center;
     font-weight: bold;
     font-size: 0.85rem;
+}
+
+.herosection-sign-in button:hover {
+    cursor: pointer;
+    border: 1px solid orange;
 }
 
 .herosection-sign-in p {
