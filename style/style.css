@@ -352,3 +352,54 @@ span {
     cursor: pointer;
 }
 
+/* herosection bottom */
+
+.herosection-sign-in {
+    /* background-color: #cccccc; */
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    position: absolute;
+    top: 240%;
+    border-top: 1px solid #0f1111;
+    border-bottom: 1px solid #0f1111;
+}
+
+.herosection-sign-in h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    word-spacing: 0.1rem;
+    text-align: center;
+}
+
+.herosection-sign-in button {
+    height: 34px;
+    width: 250px;
+    background: linear-gradient(-180deg, rgb(253, 215, 2) , rgb(243, 219, 2), orange);
+    border-radius: 5px;
+    border: 1px solid orange;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.herosection-sign-in p {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.herosection-sign-in span {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #007185;
+}
+
+.herosection-sign-in span:hover {
+    cursor: pointer;
+    color: rgb(228, 150, 4);
+}
+
