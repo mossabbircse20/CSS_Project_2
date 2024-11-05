@@ -355,7 +355,6 @@ span {
 /* herosection bottom */
 
 .herosection-sign-in {
-    /* background-color: #cccccc; */
     height: 180px;
     width: 100%;
     display: flex;
@@ -365,8 +364,8 @@ span {
     gap: 11px;
     position: absolute;
     top: 240%;
-    border-top: 1px solid #0f1111;
-    border-bottom: 1px solid #0f1111;
+    border-top: 1px solid hsl(180, 8%, 80%);
+    border-bottom: 1px solid hsl(180, 8%, 80%);
 }
 
 .herosection-sign-in h1 {
@@ -403,3 +402,30 @@ span {
     color: rgb(228, 150, 4);
 }
 
+/* Footer section */
+
+.footer-panel1 {
+    position: absolute;
+    top: 2000px;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: #394655;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-panel1:hover {
+    cursor: pointer;
+    background-color: #485769;
+}
+
+.footer-panel1 a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
