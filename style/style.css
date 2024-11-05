@@ -271,6 +271,22 @@ span {
     z-index: 0;
 }
 
+.herosection-shop_2 {
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    top: 113%;
+    z-index: 0;
+}
+
+.herosection-shop_3 {
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    top: 176%;
+    z-index: 0;
+}
+
 .shop-box {
     position: relative;
     height: 420px;
