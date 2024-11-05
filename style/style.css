@@ -423,9 +423,46 @@ span {
 }
 
 .footer-panel1 a {
-    position: relative;
     color: white;
     text-decoration: none;
     font-size: 0.85rem;
     font-weight: bold;
+}
+
+.footer-panel2 {
+    position: absolute;
+    top: 2050px;
+    height: 400px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.footer-panel2-div {
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.footer-panel2-div h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-panel2-div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    align-content: left;
+    gap : 15px;
+    padding: 0;
+    font-size: 0.90rem;
+    color: #dddddd;
 }
