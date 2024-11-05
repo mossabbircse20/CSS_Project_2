@@ -468,6 +468,11 @@ span {
     align-content: left;
     gap : 15px;
     padding: 0;
-    font-size: 0.90rem;
+    font-size: 0.937rem;
     color: #dddddd;
+}
+
+.footer-panel2-div li:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
