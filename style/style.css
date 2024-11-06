@@ -306,7 +306,6 @@ span {
     row-gap: 30px;
     top: 22%;
     left: 10px;
-
 }
 
 .shop-box-grid-text {
@@ -605,4 +604,61 @@ span {
     justify-content: center;
     font-size: 0.85rem;
     gap: 5px;
+}
+
+/* Media Quary */
+
+@media screen and (max-width : 768px) {
+    .navbar {
+        gap: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav-search {
+        width: 60%;
+    }
+    .nav-address {
+        display: none;
+    }
+    .nav-language {
+        display: none;
+    }
+    .nav-order {
+        display: none;
+    }
+
+    .herosection-img {
+        height: 150px;
+        width: 85%;
+        background-size: cover;
+    }
+    .herosection-shop {
+        flex-direction: column;
+        top: 70%;
+    }
+    .herosection-shop_2 {
+        display: none;
+    }
+    .herosection-shop_3 {
+        display: none;
+    }
+    .herosection-sign-in {
+        top : 1870px;
+    }
+    .footer-panel1 {
+        top: 2180px;
+    }
+    .footer-panel2 {
+        top: 2230px;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-panel3 {
+        width: 100%;
+        top: 2630px;
+    }
+    .footer-panel4 {
+        height: 100px;
+        top : 2750px;
+    }
 }
