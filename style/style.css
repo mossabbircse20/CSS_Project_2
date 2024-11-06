@@ -476,3 +476,133 @@ span {
     cursor: pointer;
     text-decoration: underline;
 }
+
+.footer-panel3 {
+    height: 125px;
+    width: 100%;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2450px;
+    gap: 90px;
+    border-top: 0.5px solid gray;
+}
+
+.footer-panel3 img {
+    height: 25px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-panel3 img:hover {
+    cursor: pointer;
+}
+
+.footer-panel3-select-section {
+    height: 35px;
+    width: 435px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rect-box:hover {
+    cursor: pointer;
+} 
+
+.footer-panel3-select-section-lang {
+    display: flex;
+    height: 35px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.footer-panel3-select-section-lang select {
+    height: 14px;
+    width: 18px;
+}
+
+.footer-panel3-select-section-currency {
+    display: flex;
+    height: 35px;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.footer-panel3-select-section-country {
+    height: 35px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.footer-panel3-select-section-country img {
+    height: 12px;
+    width: 18px;
+    border: 1px solid transparent;
+}
+
+.footer-panel3-select-section p {
+    font-size: 0.85rem;
+}
+
+.footer-panel4 {
+    height: 300px;
+    width: 100%;
+    background-color: #131A22;
+    position: absolute;
+    top: 2575px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+}
+
+.footer-panel4-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 0.85rem;
+}
+
+.footer-panel4-p p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-panel4-p i {
+    height: 20px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-panel4-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    gap: 5px;
+}
